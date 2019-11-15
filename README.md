@@ -52,10 +52,11 @@ $ npm run client
 $ prisma deploy
 ```
 
-# LICENCE
-MIT
-
 ### destroy
 ```shell script
 $ docker-compose down
 ```
+
+# LICENCE
+MIT
+
