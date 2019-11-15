@@ -22,15 +22,15 @@ install docker
 ### start server
 
 ```shell script
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 ```shell script
-prisma deploy
+$ prisma deploy
 ```
 
 ```shell script
-npm run dev
+$ npm run dev
 ```
 
 access to playground  
@@ -44,12 +44,12 @@ http://localhost:4466/_admin
 Get users by graphql query.
 
 ```shell script
-npm run client
+$ npm run client
 ```
 
 ### migration
 ```shell script
-prisma deploy
+$ prisma deploy
 ```
 
 # LICENCE
@@ -57,5 +57,5 @@ MIT
 
 ### destroy
 ```shell script
-docker-compose down
+$ docker-compose down
 ```
