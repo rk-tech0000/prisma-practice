@@ -9,7 +9,25 @@ dependencies
 * [prisma-nexus](https://github.com/prisma-labs/nexus-prisma)
 * [graphql-codegen](https://graphql-code-generator.com/)
 
+### preparation
+
+```shell script
+$ npm install -g prisma
+```
+
+install docker 
+[mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+[windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+
 ### start server
+
+```shell script
+docker-compose up -d
+```
+
+```shell script
+prisma deploy
+```
 
 ```shell script
 npm run dev
@@ -29,7 +47,6 @@ Get users by graphql query.
 npm run client
 ```
 
-
 ### migration
 ```shell script
 prisma deploy
@@ -38,3 +55,7 @@ prisma deploy
 # LICENCE
 MIT
 
+### destroy
+```shell script
+docker-compose down
+```
