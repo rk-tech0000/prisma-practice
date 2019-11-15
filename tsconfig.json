@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2016", "esnext.asynciterable","dom"],
+    "skipLibCheck": true
+  },
+  "files": ["client/generated/graphql.d.ts"],
+  "include": ["client/**/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}
